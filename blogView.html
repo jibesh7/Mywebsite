@@ -60,14 +60,6 @@
                 reiciendis voluptatibus maiores alias consequatu.
             </p>
          </div>
-         <div class="likeBtn" >
-             <div class="btn" id="likeBtn">
-                <i id="btn" class="fas fa-thumbs-up"></i>
-            </div>
-            <p class="likeTxt" id="likeTxt">
-                Like
-            </p>
-         </div>
      </div>
      <footer>
          <h1 class="footerTitle">That's All!</h1>
@@ -76,26 +68,6 @@
                 <a href="https://www.facebook.com/jibesh7"><i class="fab fa-facebook"></i></a>
          </div>
     </footer>
-
-
-<script>
-const btn = document.getElementById('btn');
-const likeTxt = document.getElementById('likeTxt');
-likeTxt.innerHTML="Like";
-
-likeBtn.addEventListener('click',function(){
-    likeTxt.classList.toggle('widthPh');
-    btn.classList.toggle('btnToggle');
-    if(likeTxt.innerHTML==="Like"){
-        likeTxt.innerHTML="Thank you for Liking this Post";
-    }
-    else{
-        likeTxt.innerHTML="Like";
-        
-    }
-});
-
-</script>
 
 </body>
 
