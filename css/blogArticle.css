@@ -115,7 +115,7 @@ width:fit-content;
 }
 
 footer{
-    padding: 4em;
+    padding: 0.5em;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -125,12 +125,11 @@ footer{
 }
 footer h1{
     /* letter-spacing: 0.07em; */
-    font-size: 2.2em;
+    font-size: 1em;
     letter-spacing: 2px;
 }
 footer .socialIcons{
     width:100%;
-    padding:1em 0;
     display: flex;   
     justify-content: center;
     align-items: center;
@@ -141,7 +140,7 @@ footer .socialIcons i{
     padding: 0.5em;
     background: #6b6b6b;
     color: white;
-    font-size: 1.3em;
+    font-size: 0.5em;
     margin:1em;
     transition: background 50ms ease-in-out;
 }
@@ -161,7 +160,7 @@ footer .socialIcons i:hover{
     }
     footer h1{
         letter-spacing: 0.2em;
-        font-size: 3em;
+        font-size: 1 em;
     }
     .likeTxt{
         font-size: 1.4em;
