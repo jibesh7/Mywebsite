@@ -1,0 +1,53 @@
+.clearfix {
+    clear: both;
+    }
+    
+    .contact-cta-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    padding: 5px 0 5px 0;
+    float: inherit;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .cta-wrapper {
+    margin-bottom: 0;
+    text-align: left;
+    padding: 28px;
+    background-color: #3686BE;
+    border-radius: 3px;
+    }
+    .cta-wrapper .details-wrapper {
+    float: left;
+    width: 60%;
+    }
+    .cta-wrapper .details-wrapper h2 {
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: #FFF;
+    font-size: 27px;
+    }
+    .cta-wrapper .details-wrapper p {
+    font-size: 18px;
+    color: #FFF;
+    }
+    
+    
+    .cta-wrapper .blue-cta-button {
+    padding: 17px 50px;
+    text-transform: uppercase;
+    background-color: #93CC76;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    white-space: pre;
+    color: #3686BE;
+    background-color: #FFF;
+    padding: 17px 0;
+    width: 40%;
+    text-align: center;
+    }
