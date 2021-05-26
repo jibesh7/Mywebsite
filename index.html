@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/cta.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/validation.js"></script> 
     <title>Jibesh</title>
 </head>
 
@@ -133,11 +134,12 @@
             </div>
             <div class="bottomRight">
                 <h1 class="infoTxt">Or drop me a message</h1>
-                <form action="index.html" method="POST">
-                    <input placeholder="Full Name" class="inputArea" type="text" id="fname" name="fname" required>
+                <form>
+                    <input placeholder="Full Name" class="inputArea" type="text" id="fname" name="fname" required >
                     <input placeholder="Email" class="inputArea" type="email" id="mail" name="mail" required>
+                    <span class="error" aria-live="polite"></span>
                     <textarea placeholder="Message" class="inputArea" name="msg" id="msg" style="resize:none" required></textarea>
-                    <input type="submit" class="submit" name="submit">
+                    <button type="submit" class="submit" name="submit">Submit Now </button>
                 </form>
             </div>
         </div>
