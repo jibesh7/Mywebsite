@@ -133,11 +133,11 @@
             </div>
             <div class="bottomRight">
                 <h1 class="infoTxt">Or drop me a message</h1>
-                <form>
-                    <input placeholder="Full Name" class="inputArea" type="text" id="fname" name="fname" required >
-                    <input placeholder="Email" class="inputArea" type="email" id="mail" name="mail" required>
+                <form name="messageForm" onsubmit="validateForm()">
+                    <input placeholder="Full Name" class="inputArea" type="text" id="fname" name="fname" >
+                    <input placeholder="Email" class="inputArea" type="email" id="mail" name="mail" >
                     <span class="error" aria-live="polite"></span>
-                    <textarea placeholder="Message" class="inputArea" name="msg" id="msg" style="resize:none" required></textarea>
+                    <textarea placeholder="Message" class="inputArea" name="msg" id="msg" style="resize:none" ></textarea>
                     <button type="submit" class="submit" name="submit">Submit Now </button>
                 </form>
             </div>
