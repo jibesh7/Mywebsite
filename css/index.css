@@ -204,6 +204,7 @@ transform:scale(1,1);
     letter-spacing: 0.1em;
 }
 .container .wrapper .btns{
+    padding-left: 100px;
     display: flex;
     flex-direction: column;
     width:100%;
@@ -615,9 +616,12 @@ footer{
         margin-left:2em ;
     }
     .container .wrapper .name{
+        width: 400px;
+        padding-left: 80px;
         font-size: 2.5em;
     }
     .container .wrapper .info{
+        padding-left:80px;
         font-size: 1.1em;
     }
     .container .wrapper .btns{
