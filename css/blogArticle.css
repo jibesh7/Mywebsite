@@ -127,21 +127,3 @@ footer .socialIcons i{
 footer .socialIcons i:hover{
     background:#6b6b6b2d;
 }
-
-
-@media screen and (min-width:800px){
-    .blogContainer .img{
-        font-size: 3em;
-    }
-    .blogContainer .paragraphs{
-        width:50%;
-        margin-left: 25%;
-    }
-    footer h1{
-        letter-spacing: 0.2em;
-        font-size: 1 em;
-    }
-    .likeTxt{
-        font-size: 1.4em;
-    }
-}
